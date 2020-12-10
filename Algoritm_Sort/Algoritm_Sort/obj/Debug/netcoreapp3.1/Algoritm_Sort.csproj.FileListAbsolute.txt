@@ -1,0 +1,13 @@
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\bin\Debug\netcoreapp3.1\Algoritm_Sort.exe
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\bin\Debug\netcoreapp3.1\Algoritm_Sort.deps.json
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\bin\Debug\netcoreapp3.1\Algoritm_Sort.runtimeconfig.json
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\bin\Debug\netcoreapp3.1\Algoritm_Sort.runtimeconfig.dev.json
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\bin\Debug\netcoreapp3.1\Algoritm_Sort.dll
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\bin\Debug\netcoreapp3.1\Algoritm_Sort.pdb
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\obj\Debug\netcoreapp3.1\Algoritm_Sort.csprojAssemblyReference.cache
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\obj\Debug\netcoreapp3.1\Algoritm_Sort.AssemblyInfoInputs.cache
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\obj\Debug\netcoreapp3.1\Algoritm_Sort.AssemblyInfo.cs
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\obj\Debug\netcoreapp3.1\Algoritm_Sort.csproj.CoreCompileInputs.cache
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\obj\Debug\netcoreapp3.1\Algoritm_Sort.dll
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\obj\Debug\netcoreapp3.1\Algoritm_Sort.pdb
+C:\Users\Ladro_K\source\repos\Algoritm_Sort\Algoritm_Sort\obj\Debug\netcoreapp3.1\Algoritm_Sort.genruntimeconfig.cache
