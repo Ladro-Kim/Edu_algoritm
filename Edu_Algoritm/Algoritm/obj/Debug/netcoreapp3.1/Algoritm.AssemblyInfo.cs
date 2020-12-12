@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Edu_Algoritm")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Algoritm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Edu_Algoritm")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Edu_Algoritm")]
+[assembly: System.Reflection.AssemblyProductAttribute("Algoritm")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Algoritm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

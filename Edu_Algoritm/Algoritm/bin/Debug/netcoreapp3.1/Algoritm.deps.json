@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Edu_Algoritm/1.0.0": {
+      "Algoritm/1.0.0": {
         "runtime": {
-          "Edu_Algoritm.dll": {}
+          "Algoritm.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Edu_Algoritm/1.0.0": {
+    "Algoritm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
