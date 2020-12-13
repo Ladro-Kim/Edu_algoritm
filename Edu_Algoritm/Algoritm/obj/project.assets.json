@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ladro_K\\Desktop\\Algoritm\\Algoritm\\Algoritm\\Algoritm.csproj",
+      "projectUniqueName": "C:\\Users\\Ladro_K\\Desktop\\Algoritm\\Algoritm\\Edu_Algoritm\\Algoritm\\Algoritm.csproj",
       "projectName": "Algoritm",
-      "projectPath": "C:\\Users\\Ladro_K\\Desktop\\Algoritm\\Algoritm\\Algoritm\\Algoritm.csproj",
+      "projectPath": "C:\\Users\\Ladro_K\\Desktop\\Algoritm\\Algoritm\\Edu_Algoritm\\Algoritm\\Algoritm.csproj",
       "packagesPath": "C:\\Users\\Ladro_K\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ladro_K\\Desktop\\Algoritm\\Algoritm\\Algoritm\\obj\\",
+      "outputPath": "C:\\Users\\Ladro_K\\Desktop\\Algoritm\\Algoritm\\Edu_Algoritm\\Algoritm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ladro_K\\AppData\\Roaming\\NuGet\\NuGet.Config",

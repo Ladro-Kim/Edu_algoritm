@@ -11,3 +11,16 @@ C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algo
 C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.dll
 C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.pdb
 C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.genruntimeconfig.cache
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\bin\Debug\netcoreapp3.1\Algoritm.exe
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\bin\Debug\netcoreapp3.1\Algoritm.deps.json
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\bin\Debug\netcoreapp3.1\Algoritm.runtimeconfig.json
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\bin\Debug\netcoreapp3.1\Algoritm.runtimeconfig.dev.json
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\bin\Debug\netcoreapp3.1\Algoritm.dll
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\bin\Debug\netcoreapp3.1\Algoritm.pdb
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.csprojAssemblyReference.cache
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.AssemblyInfoInputs.cache
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.AssemblyInfo.cs
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.csproj.CoreCompileInputs.cache
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.dll
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.pdb
+C:\Users\Ladro_K\Desktop\Algoritm\Algoritm\Edu_Algoritm\Algoritm\obj\Debug\netcoreapp3.1\Algoritm.genruntimeconfig.cache

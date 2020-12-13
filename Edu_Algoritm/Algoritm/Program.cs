@@ -9,12 +9,17 @@ namespace Algoritm
             int[] list = { 10, 1, 5, 8, 7, 6, 4, 3, 2, 9 };
 
             // WriteBefore(list);
-            
+
             // WriteResult(SelectionSort(list));
 
             // WriteResult(BubbleSort(list));
 
-            WriteResult(InsertSort(list));
+            // WriteResult(InsertSort(list));
+
+            QuickSort(list, 0, list.Length - 1);
+
+            for (int i = 0; i < list.Length; i++)
+                Console.Write(list[i] + " ");
 
         }
         static void WriteBefore(int[] list)
@@ -29,11 +34,19 @@ namespace Algoritm
 
         static void WriteResult(int[] list)
         {
-            for (int i = 0; i < list.Length; i++)
+            if (list == null)
             {
-                Console.Write(list[i] + " ");
+                Console.WriteLine("Failed");
             }
-            Console.WriteLine(" ");
+            else
+            {
+                for (int i = 0; i < list.Length; i++)
+                {
+                    Console.Write(list[i] + " ");
+                }
+                Console.WriteLine(" ");
+            }
+
         }
 
         static int[] SelectionSort(int[] sortList)
@@ -91,23 +104,42 @@ namespace Algoritm
                     list[j + 1] = temp;
                     j--;
                 }
-
-                //if (list[i] > list[i + 1])
-                //{
-                //    for (int j = 0; j < i; j++)
-                //    {
-                //        if (list[j] > list[i+1])
-                //        {
-                //            list[j + 1] = list[j];
-                //            list[j] = list[i + 1];
-                //        }
-                //    }
-                //}
             }
             Console.Write("Insert sort Result : ");
             return list;
         }
 
 
+        static void QuickSort(int[] array, int start, int end)
+        {
+            if (start < end)
+            {
+                int q = Partition(array, start, end);
+                QuickSort(array, start, q - 1);
+                QuickSort(array, q + 1, end);
+            }
+        }
+
+        static int Partition(int[] array, int start, int end)
+        {
+            int key = start;
+            for (int i = start; i < end; i++)
+            {
+                if (array[i] <= array[end])
+                {
+                    Swap(array, key, i);
+                    key++;
+                }
+            }
+            Swap(array, key, end);
+            return key;
+        }
+
+        static void Swap(int[] array, int beforeIndex, int foreIndex)
+        {
+            var tmp = array[beforeIndex];
+            array[beforeIndex] = array[foreIndex];
+            array[foreIndex] = tmp;
+        }
     }
 }
