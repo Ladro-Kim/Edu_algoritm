@@ -16,10 +16,11 @@ namespace Algoritm
 
             // WriteResult(InsertSort(list));
 
-            QuickSort(list, 0, list.Length - 1);
-
-            for (int i = 0; i < list.Length; i++)
-                Console.Write(list[i] + " ");
+            QuickSort(ref quickList, 0, quickList.Length - 1);
+            for (int i = 0; i < quickList.Length; i++)
+            {
+                Console.Write(quickList[i] + " ");
+            }
 
         }
         static void WriteBefore(int[] list)
@@ -109,37 +110,39 @@ namespace Algoritm
             return list;
         }
 
+        static int[] quickList = { 10, 1, 5, 8, 7, 6, 4, 3, 2, 9 };
 
-        static void QuickSort(int[] array, int start, int end)
+        static void QuickSort(ref int[] sortList, int start, int end)
         {
             if (start < end)
             {
-                int q = Partition(array, start, end);
-                QuickSort(array, start, q - 1);
-                QuickSort(array, q + 1, end);
+                int pivot = Partition(ref quickList, start, end);
+                QuickSort(ref quickList, start, pivot - 1);
+                QuickSort(ref quickList, pivot + 1, end);
             }
         }
 
-        static int Partition(int[] array, int start, int end)
+        static int Partition(ref int[] sortList, int start, int end)
         {
-            int key = start;
-            for (int i = start; i < end; i++)
+            int i = start - 1;
+
+            for (int j = start; j < end; j++)
             {
-                if (array[i] <= array[end])
+                if (sortList[j] <= sortList[end])
                 {
-                    Swap(array, key, i);
-                    key++;
+                    i++;
+                    Swap(ref sortList, i, j);
                 }
             }
-            Swap(array, key, end);
-            return key;
+            Swap(ref sortList, i + 1, end);
+            return i + 1;
         }
 
-        static void Swap(int[] array, int beforeIndex, int foreIndex)
+        static void Swap(ref int[] sortList, int i, int j)
         {
-            var tmp = array[beforeIndex];
-            array[beforeIndex] = array[foreIndex];
-            array[foreIndex] = tmp;
+            int temp = sortList[i];
+            sortList[i] = sortList[j];
+            sortList[j] = temp;
         }
     }
 }
